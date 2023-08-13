@@ -1,0 +1,109 @@
+body {
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url('background.jpg');
+background-size: cover;
+font-family: sans-serif;
+}
+
+#main-card {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 15px;
+  width: 60%; 
+  height: 85%;
+  max-width: 1000px /* set max width for large screens */
+}
+
+#logo {
+  display: block;
+  margin: 50px auto 10px; 
+  max-width: 20%; 
+  text-align: center;
+}
+
+#tagline {
+  margin: 0; 
+  padding-top: 0;
+  text-align: center; 
+  color:#08dc04; 
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+#navbar {
+  margin: 20px 50px auto; 
+  background-color: #08dc04;
+  height: fit-content;
+  text-align: center;
+}
+
+.nav-button {
+  display: inline;
+  margin: 10px auto; 
+  padding: 5px 10px; 
+  border-radius: 2px; 
+  cursor: pointer; 
+  border-color: rgba(0, 0, 0, 0.388);
+}
+
+.nav-button:hover {
+  background-color: white; 
+  color: #08dc04; 
+  border-color: white;
+}
+
+.nav-button:active {
+  background-color: #8094a3E8; 
+  color: white; 
+  border-color: #8094a3; 
+}
+
+.details { 
+  color: white;
+  margin: 10px 50px auto;
+}
+
+.scooter {
+  list-style-type: none; 
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.location {
+  margin-top: 0px; 
+  font-size: 14px;
+}
+
+.arrow {
+  font-size: 16px; 
+  vertical-align: middle; 
+  margin-right: 5px; 
+}
+
+.charge-bar {
+  height: 20px; 
+  margin-top: 5px; 
+  border-radius: 5px;
+}
+
+#charge-bar-gino{
+  background-color: #f5b453;
+  width: 35%;
+}
+
+#charge-bar-mike{
+  background-color: #1ec31e;
+  width: 55%;
+}
+
+#charge-bar-fede{
+  background-color: #be4141;
+  width: 15%;
+}
+
